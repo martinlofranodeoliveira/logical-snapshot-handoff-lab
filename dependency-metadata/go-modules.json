@@ -1,0 +1,31 @@
+{
+  "go": "1.27.3",
+  "resolution": "Go tooling with proxy.golang.org and sum.golang.org, go mod verify passed; exact transitive graph in go.mod/go.sum",
+  "direct_dependencies": [
+    {
+      "module": "github.com/jackc/pgx/v5",
+      "version": "v5.12.0",
+      "sum": "h1:hWwax8YiGT0YiN50U1oIDn5kgR7KC2tG3rmavwpPkxY=",
+      "go_mod_sum": "h1:u2Fi6no03HCSBYE+ZVdLxbwdu3xyi2vU+K/YNJioSds=",
+      "upstream": "https://github.com/jackc/pgx",
+      "license": "MIT"
+    },
+    {
+      "module": "github.com/jackc/pglogrepl",
+      "version": "v0.0.0-20261003132456-662581bb6bb6",
+      "sum": "h1:sI2Jmb3KEmVT+OyVdoTLxqVIRkQ2Qk/BKy5SS+FbAoY=",
+      "go_mod_sum": "h1:UzTJ5Jjuf4O9hYWW+HYVwVldYz9J7CaePW0iuNJkrPQ=",
+      "upstream": "https://github.com/jackc/pglogrepl",
+      "license": "MIT"
+    },
+    {
+      "module": "github.com/mattn/go-sqlite3",
+      "version": "v1.14.52",
+      "sum": "h1:wVbm2Qnf4OXkqhBTSPuCRZDRnxfbVrrmiCEroVdog8U=",
+      "go_mod_sum": "h1:6JTjA44L93a0QCyJef5YvlPoKXntQPjzWv5gtm9sB6w=",
+      "upstream": "https://github.com/mattn/go-sqlite3",
+      "license": "MIT"
+    }
+  ],
+  "sqlite": "External qualified shared SQLite via libsqlite3 build tag; driver bundled SQLite is rejected."
+}
